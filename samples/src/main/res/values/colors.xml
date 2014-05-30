@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="bl_bottom_bar">#f9f9f9</color>
+  <color name="bl_bottom_bar_border">#dddddd</color>
+  <color name="emphasis">#31b6e7</color>
+  <color name="bg_gray">#cecbce</color>
+</resources>

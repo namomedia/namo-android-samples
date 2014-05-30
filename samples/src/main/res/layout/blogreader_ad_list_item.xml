@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This is layout is sub-optimal because it was just copied and modified from the actual NYT app -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="2dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="12dp">
+
+  <com.namomedia.android.samples.common.RoundedFrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/blogreader_item_background"
+      android:orientation="vertical"
+      android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <ImageView
+          android:id="@id/namo_ad_image"
+          android:layout_width="match_parent"
+          android:layout_height="220dp"
+          android:scaleType="centerCrop" />
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#ffffff"
+          android:padding="16dp">
+
+        <TextView
+            android:id="@id/namo_advertiser_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/bl_header" />
+
+        <TextView
+            android:id="@id/namo_ad_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namo_advertiser_name"
+            android:layout_marginBottom="2sp"
+            android:layout_marginTop="2sp"
+            android:textAppearance="@style/bl_title" />
+
+      </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ad_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="#aa181818"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:text="Advertisement"
+        android:textAppearance="@style/bl_header" />
+  </com.namomedia.android.samples.common.RoundedFrameLayout>
+</FrameLayout>
+

@@ -1,0 +1,160 @@
+[
+  {
+    "image": "blogreader_item1",
+    "blogName": "A Beautiful Mess",
+    "time": "1h",
+    "title": "Whisky Lemonade with Honey",
+    "content": "Currently my favorite cocktail is a homemade whiskey lemonade. The first time I made one a nearly fainted.",
+    "likeCount": "54 Likes",
+    "attribution" : "Photo: Cocktail Glass by Simon Pearce https://www.flickr.com/photos/dinnerseries/8727085944/"
+  },
+  {
+    "image": "blogreader_item2",
+    "blogName": "Wicker Paradise",
+    "time": "4h",
+    "title": "Wicker Hats are certainly fashionable. Ask Daisy Foto",
+    "likeCount": "89 Likes",
+    "attribution" : "Photo: by Wicker Paradise https://www.flickr.com/photos/wicker-furniture/8400145236/"
+  },
+  {
+    "image": "blogreader_item3",
+    "blogName": "Suits Unlimited",
+    "time": "18h",
+    "title": "The suit is back ... again and again",
+    "likeCount": "93 Likes",
+    "attribution" : "Photo: by Robert Sheie https://www.flickr.com/photos/85546319@N04/9116959110/"
+  },
+  {
+    "image": "blogreader_item4",
+    "blogName": "The Sartorialist",
+    "time": "1 day",
+    "title": "Dolce & Gabbana Fall/Winter",
+    "content": "I live and die for these styles. They are everything.",
+    "likeCount": "72 Likes",
+    "attribution" : "Photo: by Victor Soto https://www.flickr.com/photos/synaes/7185576216"
+  },
+  {
+    "image": "blogreader_item5",
+    "blogName": "Retail Space",
+    "time": "1 day",
+    "title": "Fashion Icon",
+    "content": "The Power and Influence of Graphic Design - a new exhibit at XYZ museum.",
+    "likeCount": "60 Likes",
+    "attribution" : "Photo: by Victor Soto https://www.flickr.com/photos/synaes/7225518458/"
+  },
+  {
+    "image": "blogreader_item6",
+    "blogName": "saintobert valentin",
+    "time": "1 day",
+    "title": "My Top Favorite Four Shows..... So Far",
+    "content": "Three fashion weeks down, one very big fashion week to go. The big winners aren't clear ....",
+    "likeCount": "421 Likes",
+    "attribution" : "Photo: by saintobert valentin https://www.flickr.com/photos/synaes/7225518458/"
+  },
+
+  // Repeat from here forward
+  {
+    "image": "blogreader_item1",
+    "blogName": "A Beautiful Mess",
+    "time": "1h",
+    "title": "Whisky Lemonade with Honey",
+    "content": "Currently my favorite cocktail is a homemade whiskey lemonade. The first time I made one a nearly fainted.",
+    "likeCount": "54 Likes",
+    "attribution" : "Photo: Cocktail Glass by Simon Pearce https://www.flickr.com/photos/dinnerseries/8727085944/"
+  },
+  {
+    "image": "blogreader_item2",
+    "blogName": "Wicker Paradise",
+    "time": "4h",
+    "title": "Wicker Hats are certainly fashionable. Ask Daisy Foto",
+    "likeCount": "89 Likes",
+    "attribution" : "Photo: by Wicker Paradise https://www.flickr.com/photos/wicker-furniture/8400145236/"
+  },
+  {
+    "image": "blogreader_item3",
+    "blogName": "Suits Unlimited",
+    "time": "18h",
+    "title": "The suit is back ... again and again",
+    "likeCount": "93 Likes",
+    "attribution" : "Photo: by Robert Sheie https://www.flickr.com/photos/85546319@N04/9116959110/"
+  },
+  {
+    "image": "blogreader_item4",
+    "blogName": "The Sartorialist",
+    "time": "1 day",
+    "title": "Dolce & Gabbana Fall/Winter",
+    "content": "I live and die for these styles. They are everything.",
+    "likeCount": "72 Likes",
+    "attribution" : "Photo: by Victor Soto https://www.flickr.com/photos/synaes/7185576216"
+  },
+  {
+    "image": "blogreader_item5",
+    "blogName": "Retail Space",
+    "time": "1 day",
+    "title": "Fashion Icon",
+    "content": "The Power and Influence of Graphic Design - a new exhibit at XYZ museum.",
+    "likeCount": "60 Likes",
+    "attribution" : "Photo: by Victor Soto https://www.flickr.com/photos/synaes/7225518458/"
+  },
+  {
+    "image": "blogreader_item6",
+    "blogName": "saintobert valentin",
+    "time": "1 day",
+    "title": "My Top Favorite Four Shows..... So Far",
+    "content": "Three fashion weeks down, one very big fashion week to go. The big winners aren't clear ....",
+    "likeCount": "421 Likes",
+    "attribution" : "Photo: by saintobert valentin https://www.flickr.com/photos/synaes/7225518458/"
+  },
+  {
+    "image": "blogreader_item1",
+    "blogName": "A Beautiful Mess",
+    "time": "1h",
+    "title": "Whisky Lemonade with Honey",
+    "content": "Currently my favorite cocktail is a homemade whiskey lemonade. The first time I made one a nearly fainted.",
+    "likeCount": "54 Likes",
+    "attribution" : "Photo: Cocktail Glass by Simon Pearce https://www.flickr.com/photos/dinnerseries/8727085944/"
+  },
+  {
+    "image": "blogreader_item2",
+    "blogName": "Wicker Paradise",
+    "time": "4h",
+    "title": "Wicker Hats are certainly fashionable. Ask Daisy Foto",
+    "likeCount": "89 Likes",
+    "attribution" : "Photo: by Wicker Paradise https://www.flickr.com/photos/wicker-furniture/8400145236/"
+  },
+  {
+    "image": "blogreader_item3",
+    "blogName": "Suits Unlimited",
+    "time": "18h",
+    "title": "The suit is back ... again and again",
+    "likeCount": "93 Likes",
+    "attribution" : "Photo: by Robert Sheie https://www.flickr.com/photos/85546319@N04/9116959110/"
+  },
+  {
+    "image": "blogreader_item4",
+    "blogName": "Fashion Review",
+    "time": "1 day",
+    "title": "Dolce & Gabbana Fall/Winter",
+    "content": "I live and die for these styles. They are everything.",
+    "likeCount": "72 Likes",
+    "attribution" : "Photo: by Victor Soto https://www.flickr.com/photos/synaes/7185576216"
+  },
+  {
+    "image": "blogreader_item5",
+    "blogName": "Retail Space",
+    "time": "1 day",
+    "title": "Fashion Icon",
+    "content": "The Power and Influence of Graphic Design - a new exhibit at XYZ museum.",
+    "likeCount": "60 Likes",
+    "attribution" : "Photo: by Victor Soto https://www.flickr.com/photos/synaes/7225518458/"
+  },
+  {
+    "image": "blogreader_item6",
+    "blogName": "saintobert valentin",
+    "time": "1 day",
+    "title": "My Top Favorite Four Shows..... So Far",
+    "content": "Three fashion weeks down, one very big fashion week to go. The big winners aren't clear ....",
+    "likeCount": "421 Likes",
+    "attribution" : "Photo: by saintobert valentin https://www.flickr.com/photos/synaes/7225518458/"
+  }
+]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.namomedia.android.samples"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+  <uses-sdk
+      android:minSdkVersion="8"
+      android:targetSdkVersion="18" />
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+  <application
+      android:allowBackup="true"
+      android:icon="@drawable/ic_launcher"
+      android:label="Product Demos"
+      android:theme="@style/AppBaseTheme">
+    <activity
+        android:name="com.namomedia.android.NamoAdActivity"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    <activity
+        android:name="com.namomedia.android.samples.MainActivity"
+        android:label="Namo Demos">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <!-- Demos -->
+    <activity
+        android:name="com.namomedia.android.samples.blogreader.BlogReaderActivity"
+        android:icon="@drawable/blogreader_logo"
+        android:label="Blog Reader"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.BlogReader">
+      <meta-data
+          android:name="category"
+          android:value="Demos" />
+    </activity>
+    <activity
+        android:name="com.namomedia.android.samples.newsapp.NewsAppActivity"
+        android:icon="@drawable/ic_newsapp"
+        android:label="News App">
+      <meta-data
+          android:name="category"
+          android:value="Demos" />
+    </activity>
+    <activity
+        android:name="com.namomedia.android.samples.customplacement.CustomPlacementActivity"
+        android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
+        android:label="@string/title_activity_custom_placement"
+        android:theme="@style/Theme.AppCompat">
+      <meta-data
+          android:name="category"
+          android:value="Demos" />
+    </activity>
+
+    <!-- Samples -->
+    <activity
+        android:name="com.namomedia.android.samples.adviews.AdViewSampleActivity"
+        android:label="Ad View Sample" />
+  </application>
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This is layout is sub-optimal because it was just copied and modified from the actual NYT app -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
+
+  <LinearLayout
+      android:id="@+id/item_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingBottom="8dp"
+      android:paddingLeft="8dp"
+      android:paddingRight="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="left"
+          android:textColor="#ff393939"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:typeface="serif" />
+
+      <TextView
+          android:id="@+id/text"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginTop="2.0dip"
+          android:maxLines="6"
+          android:textColor="#ff808080"
+          android:textSize="12dp"
+          android:typeface="serif" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="top|right|center"
+        android:background="#ffe2e2e2" />
+  </LinearLayout>
+
+  <View
+      android:id="@+id/listDividerGrey"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_alignParentBottom="true"
+      android:background="#fff6f6f6" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+  <string name="ad_server_key">ad_server_url</string>
+  <string name="ad_server_manual_key">ad_server_url_manual</string>
+  <string-array name="ad_server_titles">
+    <item>Production</item>
+    <item>Staging</item>
+    <item>Dev</item>
+    <item>10.0.2.2 (emulator only)</item>
+  </string-array>
+  <string-array name="ad_server_values">
+    <item>http://r.namomedia.com/ad</item>
+    <item>http://r.staging.namomedia.com/ad</item>
+    <item>http://r.dev.namomedia.com/ad</item>
+    <!-- 10.0.2.2 is the emulator alias to your dev machine's localhost.
+    See http://developer.android.com/tools/devices/emulator.html -->
+    <item>http://10.0.2.2:8080/adserver/ad</item>
+  </string-array>
+  <string name="debug_campaign_id_key">debug_campaign_id</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:padding="5dp">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:animateLayoutChanges="true"
+      android:background="@drawable/ad_background"
+      android:padding="3dp">
+
+    <ImageView
+        android:id="@id/namo_ad_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|right|center"
+        android:layout_margin="5dp"
+        android:background="#ffe2e2e2"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/namo_ad_image"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:lines="1"
+        android:text="Ad"
+        android:textColor="#ff393939"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@id/namo_advertiser_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/namo_ad_image"
+        android:gravity="left"
+        android:text="Example advertiser name"
+        android:textColor="#ff393939"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@id/namo_ad_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/namo_advertiser_name"
+        android:layout_below="@id/namo_advertiser_name"
+        android:layout_toLeftOf="@id/namo_ad_image"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="Example ad test. This text can be up to 200 characters and take up to 4 lines to render on a small resolution device such as a Nexus S in portrait mode."
+        android:textColor="#ff808080"
+        android:textSize="12dp"
+        android:typeface="serif" />
+  </RelativeLayout>
+</FrameLayout>

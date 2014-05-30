@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Congressman Picked for South Carolina Senate Seat",
+    "image": "newsapp_item1",
+    "text": "The move makes Tim Scott, a Republican, the first black senator from the South since the late 19th century.",
+    "type": "news",
+    "attribution" : "Image by North Charleston: https://www.flickr.com/photos/northcharleston/8498733338/"
+  },
+  {
+    "title": "Good Name Is Restored in Terrain Known for Tea",
+    "image": "newsapp_item2",
+    "text": "DARJEELING, India \u2014 Among connoisseurs, few teas surpass a good Darjeeling. The smooth and mellow taste commands a premium price, and the name itself evokes a bygone era when the British first introduced Chinese tea plants here in the Indian foothills of the Himalayas.",
+    "type": "news",
+    "attribution" : "Image by butforsky.com: https://www.flickr.com/photos/fabulousfabs/6829300421/"
+  },
+  {
+    "title": "When the Family Business Is Wooden Water Tanks",
+    "image": "newsapp_item3",
+    "text": "Installing, maintaining and replacing them in New York City are tasks largely handled by old family businesses.",
+    "type": "news",
+    "attribution" : "Image by Veni: https://www.flickr.com/photos/veni/470634688/"
+  },
+  {
+    "title": "Massachusetts Fines Investment Bank Over Chumhum",
+    "image": "newsapp_item4",
+    "text": "The state\u2019s top financial regulator accused the bank of improperly influencing the I.P.O. process.",
+    "type": "news",
+    "attribution" : "Image by David Ohmer: https://www.flickr.com/photos/the-o/2932154987/"
+  },
+  {
+    "title": "Staten Island Landfill Park Proves Savior in Hurricane",
+    "image": "newsapp_item5",
+    "text": "During Hurricane Sandy, the Fresh Kills landfill on Staten Island absorbed a critical part of the storm surge. Its hills and waterways spared nearby neighborhoods like Travis, Bulls Head, New Springville and Arden Heights",
+    "type": "news",
+    "attribution" : "Image by H.L.I.T.: https://www.flickr.com/photos/29311691@N05/4572269569/"
+  },
+  {
+    "title": "Please, Mom and Dad: Just Have a Taste",
+    "image": "newsapp_item6",
+    "text": "My childhood tasted of bland roast chicken and canned crescent rolls \u2014 starchy fare that typically came out of a box, plopped on our plates by our tireless working mom. Dining out usually meant wielding our trays down the line at Luby\u2019s Cafeteria in San Antonio for mashed potatoes and a factory-cut square of fried fish, with a clover-shaped dinner roll on the side.",
+    "type": "news",
+    "attribution" : "Image by Steven Depolo: https://www.flickr.com/photos/stevendepolo/3774068930/"
+  },
+
+  // Repeated from here
+  {
+    "title": "Congressman Picked for South Carolina Senate Seat",
+    "image": "newsapp_item1",
+    "text": "The move makes Tim Scott, a Republican, the first black senator from the South since the late 19th century.",
+    "type": "news",
+    "attribution" : "Image by North Charleston: https://www.flickr.com/photos/northcharleston/8498733338/"
+  },
+  {
+    "title": "Good Name Is Restored in Terrain Known for Tea",
+    "image": "newsapp_item2",
+    "text": "DARJEELING, India \u2014 Among connoisseurs, few teas surpass a good Darjeeling. The smooth and mellow taste commands a premium price, and the name itself evokes a bygone era when the British first introduced Chinese tea plants here in the Indian foothills of the Himalayas.",
+    "type": "news",
+    "attribution" : "Image by butforsky.com: https://www.flickr.com/photos/fabulousfabs/6829300421/"
+  },
+  {
+    "title": "When the Family Business Is Wooden Water Tanks",
+    "image": "newsapp_item3",
+    "text": "Installing, maintaining and replacing them in New York City are tasks largely handled by old family businesses.",
+    "type": "news",
+    "attribution" : "Image by Veni: https://www.flickr.com/photos/veni/470634688/"
+  },
+  {
+    "title": "Massachusetts Fines Investment Bank Over Chumhum",
+    "image": "newsapp_item4",
+    "text": "The state\u2019s top financial regulator accused the bank of improperly influencing the I.P.O. process.",
+    "type": "news",
+    "attribution" : "Image by David Ohmer: https://www.flickr.com/photos/the-o/2932154987/"
+  },
+  {
+    "title": "Staten Island Landfill Park Proves Savior in Hurricane",
+    "image": "newsapp_item5",
+    "text": "During Hurricane Sandy, the Fresh Kills landfill on Staten Island absorbed a critical part of the storm surge. Its hills and waterways spared nearby neighborhoods like Travis, Bulls Head, New Springville and Arden Heights",
+    "type": "news",
+    "attribution" : "Image by H.L.I.T.: https://www.flickr.com/photos/29311691@N05/4572269569/"
+  },
+  {
+    "title": "Please, Mom and Dad: Just Have a Taste",
+    "image": "newsapp_item6",
+    "text": "My childhood tasted of bland roast chicken and canned crescent rolls \u2014 starchy fare that typically came out of a box, plopped on our plates by our tireless working mom. Dining out usually meant wielding our trays down the line at Luby\u2019s Cafeteria in San Antonio for mashed potatoes and a factory-cut square of fried fish, with a clover-shaped dinner roll on the side.",
+    "type": "news",
+    "attribution" : "Image by Steven Depolo: https://www.flickr.com/photos/stevendepolo/3774068930/"
+  },
+  {
+    "title": "Congressman Picked for South Carolina Senate Seat",
+    "image": "newsapp_item1",
+    "text": "The move makes Tim Scott, a Republican, the first black senator from the South since the late 19th century.",
+    "type": "news",
+    "attribution" : "Image by North Charleston: https://www.flickr.com/photos/northcharleston/8498733338/"
+  },
+  {
+    "title": "Good Name Is Restored in Terrain Known for Tea",
+    "image": "newsapp_item2",
+    "text": "DARJEELING, India \u2014 Among connoisseurs, few teas surpass a good Darjeeling. The smooth and mellow taste commands a premium price, and the name itself evokes a bygone era when the British first introduced Chinese tea plants here in the Indian foothills of the Himalayas.",
+    "type": "news",
+    "attribution" : "Image by butforsky.com: https://www.flickr.com/photos/fabulousfabs/6829300421/"
+  },
+  {
+    "title": "When the Family Business Is Wooden Water Tanks",
+    "image": "newsapp_item3",
+    "text": "Installing, maintaining and replacing them in New York City are tasks largely handled by old family businesses.",
+    "type": "news",
+    "attribution" : "Image by Veni: https://www.flickr.com/photos/veni/470634688/"
+  },
+  {
+    "title": "Massachusetts Fines Investment Bank Over Chumhum",
+    "image": "newsapp_item4",
+    "text": "The state\u2019s top financial regulator accused the bank of improperly influencing the I.P.O. process.",
+    "type": "news",
+    "attribution" : "Image by David Ohmer: https://www.flickr.com/photos/the-o/2932154987/"
+  },
+  {
+    "title": "Staten Island Landfill Park Proves Savior in Hurricane",
+    "image": "newsapp_item5",
+    "text": "During Hurricane Sandy, the Fresh Kills landfill on Staten Island absorbed a critical part of the storm surge. Its hills and waterways spared nearby neighborhoods like Travis, Bulls Head, New Springville and Arden Heights",
+    "type": "news",
+    "attribution" : "Image by H.L.I.T.: https://www.flickr.com/photos/29311691@N05/4572269569/"
+  },
+  {
+    "title": "Please, Mom and Dad: Just Have a Taste",
+    "image": "newsapp_item6",
+    "text": "My childhood tasted of bland roast chicken and canned crescent rolls \u2014 starchy fare that typically came out of a box, plopped on our plates by our tireless working mom. Dining out usually meant wielding our trays down the line at Luby\u2019s Cafeteria in San Antonio for mashed potatoes and a factory-cut square of fried fish, with a clover-shaped dinner roll on the side.",
+    "type": "news",
+    "attribution" : "Image by Steven Depolo: https://www.flickr.com/photos/stevendepolo/3774068930/"
+  }
+]

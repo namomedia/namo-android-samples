@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="sdk_label">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#afafaf</item>
+  </style>
+
+  <style name="bl_header">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#afafaf</item>
+  </style>
+
+  <style name="bl_title">
+    <item name="android:textSize">17sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#222222</item>
+  </style>
+
+  <style name="bl_normal">
+    <item name="android:textSize">15sp</item>
+    <item name="android:textColor">#222222</item>
+  </style>
+
+  <style name="bl_button">
+    <item name="android:textSize">13sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#888888</item>
+  </style>
+
+  <style name="br_engraved">
+    <item name="android:shadowDx">1.0</item>
+    <item name="android:shadowDy">1.0</item>
+    <item name="android:shadowRadius">1.0</item>
+  </style>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This is layout is sub-optimal because it was just copied and modified from the actual NYT app -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="2dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="12dp">
+
+  <com.namomedia.android.samples.common.RoundedFrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/blogreader_item_background"
+      android:orientation="vertical"
+      android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <ImageView
+          android:id="@+id/image"
+          android:layout_width="match_parent"
+          android:layout_height="220dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/blogreader_item1" />
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#ffffff"
+          android:padding="16dp">
+
+        <TextView
+            android:id="@+id/blog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Beautiful Mess"
+            android:textAppearance="@style/bl_header" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="1h"
+            android:textAppearance="@style/bl_header" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blog_name"
+            android:layout_marginBottom="2sp"
+            android:layout_marginTop="2sp"
+            android:text="Whisky Lemonade with Honey"
+            android:textAppearance="@style/bl_title" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Currently my favorite cocktail is a homemade whiskey lemonade. The first time I made one a nearly fainted."
+            android:textAppearance="@style/bl_normal" />
+      </RelativeLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/blogreader_footer_background"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mark_read_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/blogreader_button_background"
+            android:paddingBottom="6dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="6dp"
+            android:text="Mark as read"
+            android:textAppearance="@style/bl_button" />
+
+        <TextView
+            android:id="@+id/like_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/blogreader_button_background"
+            android:paddingBottom="6dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="6dp"
+            android:text="Like"
+            android:textAppearance="@style/bl_button" />
+
+        <TextView
+            android:id="@+id/likeCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingBottom="6dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="6dp"
+            android:text="54 Likes"
+            android:textAppearance="@style/bl_button" />
+      </LinearLayout>
+    </LinearLayout>
+  </com.namomedia.android.samples.common.RoundedFrameLayout>
+</FrameLayout>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ad_background"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="advertiser_name:"
+      android:textAppearance="@style/sdk_label" />
+
+  <TextView
+      android:id="@id/namo_advertiser_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ad_advertiser_icon:"
+      android:textAppearance="@style/sdk_label" />
+
+  <ImageView
+      android:id="@id/namo_advertiser_icon"
+      android:layout_width="20dp"
+      android:layout_height="20dp" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ad_text:"
+      android:textAppearance="@style/sdk_label" />
+
+  <TextView
+      android:id="@id/namo_ad_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ad_image:"
+      android:textAppearance="@style/sdk_label" />
+
+  <ImageView
+      android:id="@id/namo_ad_image"
+      android:layout_width="match_parent"
+      android:layout_height="100dp" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ad_indicator:"
+      android:textAppearance="@style/sdk_label" />
+
+  <TextView
+      android:id="@id/namo_ad_indicator"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+</LinearLayout>
