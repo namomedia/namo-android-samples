@@ -1,16 +1,54 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-
 buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.+'
+    }
+
     repositories {
         mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:0.9.+'
     }
 }
 
-allprojects {
-    repositories {
-        mavenCentral()
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1'
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 19
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
     }
 }
+
+dependencies {
+    compile 'com.namomedia.android:namo:2.2.17@aar'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.android.support:appcompat-v7:+'
+
+    compile('com.namomedia.android:namo:2.2.17@aar')
+}
+
+repositories {
+    mavenCentral()
+    // Uncomment to use staging repo
+    /*maven {
+      url 'https://oss.sonatype.org/content/groups/staging'
+    }*/
+}
+
+apply plugin: 'idea'
+
+idea {
+    module {
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}
+
