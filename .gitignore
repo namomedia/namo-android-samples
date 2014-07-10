@@ -1,0 +1,34 @@
+# Eclipse
+.settings
+.checkstyle
+out
+
+# IntelliJ IDEA
+*.iws
+workspace.xml
+tasks.xml
+classes
+gen-external-apklibs
+
+# Gradle
+.gradle
+build
+
+# Maven
+target
+pom.xml.*
+settings.xml
+
+# Ant
+bin
+gen
+build.xml
+ant.properties
+local.properties
+
+# Other
+.DS_Store
+tmp
+*.swp
+atlassian-ide-plugin.xml
+
